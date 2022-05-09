@@ -21,13 +21,13 @@ if (deviant >= 10) { console.log(`chiều cao hợp lí`)
     {console.log(`bạn nên uống thêm sữa`)}
   else if (bMIdex<=18.5) 
     {console.log(`Gầy`)}
-  else if (bMIdex>=19 || bMIdex<=24.9) 
+  else if (bMIdex>=19 && bMIdex<=24.9) 
     {console.log(` Bình thường`)}
-  else if (bMIdex>=25 || bMIdex<=29.9) 
+  else if (bMIdex>=25 && bMIdex<=29.9) 
     {console.log(` Tăng Cân`)}
-  else if (bMIdex>=30 || bMIdex<=34.9) 
+  else if (bMIdex>=30 && bMIdex<=34.9) 
     {console.log(` Béo phì độ 1`)}
-  else if (bMIdex>=35 || bMIdex<=39.9)
+  else if (bMIdex>=35 && bMIdex<=39.9)
     {console.log(` Béo phì độ 2`)}
   else (bMIdex>=40)
     {console.log(` Béo phì độ 3`)}
