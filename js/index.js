@@ -19,7 +19,7 @@ console.log(`Sau khinh tính toán BMI của bạn là ${bMIdex}`)
 if (deviant >= 10) { console.log(`chiều cao hợp lí`)  
 } else if (deviant<10) 
     {console.log(`bạn nên uống thêm sữa`)}
-  else if (bMIdex<=18.5) 
+  else if (bMIdex>=18.5) 
     {console.log(`Gầy`)}
   else if (bMIdex>=19 && bMIdex<=24.9) 
     {console.log(` Bình thường`)}
